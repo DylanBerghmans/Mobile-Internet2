@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8" />
+
+
+    <title> MI2 - les1 - Oefeningen </title>
+    <meta name="description" content="" />
+    <meta name="author" content="Steven" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        "use strict";
+
+        function plus(getal1, getal2) {
+            return getal1 + getal2;
+        }
+
+        function min(getal1, getal2) {
+            return getal1 - getal2;
+        }
+
+        function GedeeldDoor(getal1, getal2) {
+            return getal1 / getal2;
+        }
+
+        function maal(getal1, getal2) {
+            return getal1 * getal2;
+        }
+
+
+
+        document.write("plus:" + plus(4, 2) + "<br>");
+        document.write("min:" + min(4, 2) + "<br>");
+        document.write("GedeeldDoor:" + GedeeldDoor(4, 2) + "<br>");
+        document.write("Maal:" + maal(4, 2) + "<br>");
+        document.write("<br>");
+
+    </script>
+
+    <script type="text/javascript">
+        "use strict";
+
+        function Rekenmachine() {
+            this.getal1 = 4;
+            this.getal2 = 2;
+        }
+        var rekenen = new Rekenmachine();
+        document.write("prototype <br><br>");
+        document.write("Optellen: " + (rekenen.getal1 + rekenen.getal2) + "<br>");
+        document.write("Aftrekken: " + (rekenen.getal1 + rekenen.getal2) + "<br>");
+        document.write("Delen: " + (rekenen.getal1 + rekenen.getal2) + "<br>");
+        document.write("Maal: " + (rekenen.getal1 + rekenen.getal2) + "<br>");
+
+    </script>
+
+
+
+
+</body>
